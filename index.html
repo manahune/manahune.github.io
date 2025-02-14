@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Le grand bingo du jeudi</title>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="ui.js"></script>
+</head>
+<body onload="generateBingo()">
+    <h1>Ton bingo du jour:</h1>
+    <header>
+        <div onclick="openNav()">Menu</div>
+        <h3 id="cases">cases cochées: 0/25</h3>
+    </header>
+    <div id="side-settings" class="settings">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; Fermer</a>
+        <hr>
+        <div>
+            Bingo size
+            <input id="bingo-size" type="number" name="size" value="5">
+        </div>
+    </div>
+    <table id="bingo-grid"></table>
+</body>
+</html>

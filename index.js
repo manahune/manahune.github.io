@@ -1,4 +1,5 @@
 var quotes = [
+    "Christophe arrive en retard à la réunion",
     "Point Gratuit Félicitation !",
     "C'est pas SCRUM",
     "Agilité, c'est comme ça",
@@ -10,7 +11,7 @@ var quotes = [
     "Moi je sais",
     "Tout ce que tu fais, je le fais en mieux",
     "C'est agnostique",
-    "13",
+    "Christophe et Michel se prennent la tête",
     "14",
     "15",
     "16",

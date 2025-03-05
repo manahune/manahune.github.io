@@ -23,7 +23,7 @@ var quotes = [
     "22",
     "23",
     "24",
-    "25"
+    "on va déjà voir ton code"
 ]
 
 var bingoSize = 5;

@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +8,7 @@
     <script type="text/javascript" src="ui.js"></script>
 </head>
 <body onload="generateBingo()">
-    <h1>Le Bingo du Cimentier:</h1>
+    <h1>Ton bingo du cimentier:</h1>
     <header>
         <div onclick="openNav()">Menu</div>
         <h3 id="cases">cases cochées: 0/25</h3>
@@ -17,7 +18,7 @@
         <hr>
         <div>
             Bingo size
-            <input id="bingo-size" type="number" name="size" value="5">
+            <input id="bingo-size" type="number" name="size" min="1" value="5" max="5" onchange="changedBingo(this)">
         </div>
     </div>
     <table id="bingo-grid"></table>

@@ -1,4 +1,4 @@
-var quotes = [
+un prvar quotes = [
     "...Christophe arrive en retard à la réunion...",
     "Point Gratuit Félicitation !",
     "Ca c'est pas SCRUM",
@@ -17,7 +17,7 @@ var quotes = [
     "J'ai un quick win",
     "Il y a un sujet d'architecture",
     "C'est pas difficile mais dans ce sens c'est compliqué",
-    "19",
+    "C'est de la gouvernance",
     "20",
     "21",
     "22",

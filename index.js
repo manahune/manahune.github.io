@@ -1,4 +1,4 @@
-un prvar quotes = [
+var quotes = [
     "...Christophe arrive en retard à la réunion...",
     "Point Gratuit Félicitation !",
     "Ca c'est pas SCRUM",
